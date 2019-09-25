@@ -1,0 +1,30 @@
+body{
+    background-color: #B9EEF0;
+}
+
+h1{
+    color: #B34429;font-family: "Georgia", Georgia, serif;
+}
+
+h2{ 
+    color: #B34429;font-family: "Georgia", Georgia, serif;
+}
+
+#indexfooter{
+    color:#B34429;font-family: "Times New Roman", Times, serif;font-size: 20px;
+}
+
+
+
+.paragraph{
+    color:#402A1C;font-family: "Georgia", Georgia, serif;font-size: 25px;
+}
+
+
+.footer{
+    color:#B35E3D;font-family: "Times New Roman", Times, serif;font-size: 15px;
+}
+
+table, th, td {
+  border: 1px solid black;color: brown;
+}
