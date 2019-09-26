@@ -1,57 +1,73 @@
 <!DOCTYPE html>
-<!-- Edits to spacing and legibility -->
-<html lang="en" style="background: #5C1200">
+
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
     <title>WELCOME TO TEXAS CITY, IOWA!!</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <style>
-      img {
-        display: inline;
-        margin-left: auto;
-        margin-right: auto;
-        width: 49%;
-      }
-    </style>
+    
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+
   </head>
   <body>
-    <nav>
-      <ul>
-        <li class="active"><a href="index.html">Home Page</a></li>
-        <li><a href="abouttexascity.html">About</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="salepage.html">Items for Sale</a></li>
-        <li><a href="thingstodo.html">Things To Do</a></li>
-        <li><a href="directions.html">Directions to the City</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#">Texas City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home Page <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="abouttexascity.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+          <li class="nav-item"><a class="nav-link" href="salepage.html">Items for Sale</a></li>
+          <li class="nav-item"><a class="nav-link" href="thingstodo.html">Things To Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="directions.html">Directions to the City</a></li>
+        </ul>
+      </div>
     </nav>
-    <br>
-    <header><h1>WELCOME TO TEXAS CITY</h1></header>
-    <img src="img/index1.jpg" alt="City Building" />
-    <img src="img/index2.jpg" alt="Random Street View" />
+    <div class="container">
+      <header class="col-12"><h1>WELCOME TO TEXAS CITY</h1></header>
+      <div class="row">
+        <img class="col-xs-12 col-sm-10 col-md-10 col-lg-6" src="img/index1.jpg" alt="City Building" />
+        <img class= "col-xs-12 col-sm-10 col-md-10 col-lg-6" src="img/index2.jpg" alt="Random Street View" />
+      </div>
+      
+        <p>Texas City is the Goldilocks city of Iowa. We're not too big, and we're not too small.
+        Come check us out and see all we have to offer!</p> 
     
-    <div style="background: white;">
-      <!-- Added Brief Text -->
-      <p>Texas City is the Goldilocks city of Iowa. We're not too big, and we're not too small.
-      Come check us out and see all we have to offer!</p> 
-    
-      <p><b><u>How did you find us?</u></b></p>
+        <p><b><u>How did you find us?</u></b></p>
 
-      <form style="display:block;">
-        <input type="radio" name="how" value="friend/family" checked> Friend/Family<br>
-        <input type="radio" name="how" value="facebook"> Facebook<br>
-        <input type="radio" name="how" value="other"> Other
-        <!-- Added a submit button to the form -->
-        <br><input type="submit" value="Submit">
-      </form>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="radio" name="how" value="friend/family" checked> Friend/Family
+            </div>
+            <div class="input-group-text">
+              <input type="radio" name="how" value="facebook"> Facebook
+            </div>
+            <div class="input-group-text">
+              <input type="radio" name="how" value="other"> Other
+            </div>
+            <a href="#" class="btn btn-primary" role="button">Submit</a>
+          </div>
+        </div>
+      <br>
+      <hr>
+      <footer>Information and Images &copy; Texas City, Iowa
+      </footer>
     </div>
-    <br><br>
-    <!-- Added a line at the bottom of each page-->
-    <hr>
-    <footer>Information and Images &copy; Texas City, Iowa
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-
 </html>
 

@@ -1,41 +1,59 @@
 <!DOCTYPE html>
-<!-- Edits to spacing and legibility -->
 <html lang="en">
 
- <head><!--Head is stuff that won't be printed and header is the title of the page you are on-->
+ <head>
      <meta charset="utf-8">
      <title>ABOUT TEXAS CITY</title>
-     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+     
+     <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+
  </head>
  <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home Page</a></li>
-      <li class="active"><a href="abouttexascity.html">About</a></li>
-      <li><a href="history.html">History</a></li>
-      <li><a href="salepage.html">Items for Sale</a></li>
-      <li><a href="thingstodo.html">Things To Do</a></li>
-      <li><a href="directions.html">Directions to the City</a></li>
-    </ul>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#">Texas City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home Page <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+          <li class="nav-item"><a class="nav-link" href="salepage.html">Items for Sale</a></li>
+          <li class="nav-item"><a class="nav-link" href="thingstodo.html">Things To Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="directions.html">Directions to the City</a></li>
+        </ul>
+      </div>
+    </nav>
   <br>
-  <header><h1>ABOUT TEXAS CITY</h1></header>
-  <br>
-  <img src="img/marybary.jpg" alt="Mary Bary"/>
+  <div class="container">
+    <header><h1>ABOUT TEXAS CITY</h1></header>
+    <br>
+    <img src="img/marybary.jpg" alt="Mary Bary"/>
   
-  <article>
-    <p>According to the 2018 United States Census Bureau, the current population of Texas city is 212,546.</p>
+    <article>
+      <p>According to the 2018 United States Census Bureau, the current population of Texas city is 212,546.</p>
 
-    <p>It is a larger town with a small town feeling, meaning its not intimidating and it is not a massive city.</p>
-    <p>Located in geographic center of Iowa.</p>
-    <p>Texas City is the fastest growing city and fastest growing city for medical fields! We also have one of the best Hospitals in the state of Iowa called Union Texas City Hospital!</p>
-    <p>The weather typically in Texas City is mild to hot summers and harsh winters.</p>
-    <p>Check out our YouTube page <a href=" https://www.youtube.com/channel/UCa4oB1Yu-wmTlNYHhdXCzVA">here</a>.</p>
-  </article>
-  <!-- Added a line at the bottom of each page-->
-  <hr>
-  <footer>Information and Images &copy; Texas City, Iowa
-  </footer><!--footer in body-->
+      <p>It is a larger town with a small town feeling, meaning its not intimidating and it is not a massive city.</p>
+      <p>Located in geographic center of Iowa.</p>
+      <p>Texas City is the fastest growing city and fastest growing city for medical fields! We also have one of the best Hospitals in the state of Iowa called Union Texas City Hospital!</p>
+      <p>The weather typically in Texas City is mild to hot summers and harsh winters.</p>
+      <p>Check out our YouTube page <a href=" https://www.youtube.com/channel/UCa4oB1Yu-wmTlNYHhdXCzVA">here</a>.</p>
+    </article>
+    <hr>
+    <footer>Information and Images &copy; Texas City, Iowa</footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  </body>
 </html>
 
