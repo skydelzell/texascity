@@ -97,13 +97,15 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+  color: dark;}
 
 ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  color: dark;}
 
 dt {
   font-weight: 700; }
@@ -191,7 +193,8 @@ caption {
   caption-side: bottom; }
 
 th {
-  text-align: inherit; }
+  text-align: inherit; 
+  color: dark;}
 
 label {
   display: inline-block;
@@ -368,14 +371,17 @@ mark,
 
 .list-unstyled {
   padding-left: 0;
-  list-style: none; }
+  list-style: none; 
+  color: dark;}
 
 .list-inline {
   padding-left: 0;
-  list-style: none; }
+  list-style: none;
+  color: dark; }
 
 .list-inline-item {
-  display: inline-block; }
+  display: inline-block; 
+  color: dark;}
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem; }
 
@@ -1096,13 +1102,13 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(47, 65, 74, 0.5); }
 
 .btn-secondary {
-  color: #212529;
-  background-color: #F47B53;
-  border-color: #F47B53; }
+  color: blue;
+  background-color: gray-light;
+  border-color: gray-light; }
   .btn-secondary:hover {
-    color: #fff;
-    background-color: #f25f2f;
-    border-color: #f15623; }
+    color: blue;
+    background-color: gray-dark;
+    border-color: gray-dark; }
   .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(244, 123, 83, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
@@ -1189,7 +1195,7 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #f2460d;
+  background-color: red;
   border-color: #f2460d; }
   .btn-danger:hover {
     color: #fff;
@@ -3003,9 +3009,9 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
-  color: #fff;
+  color: dark;
   background-color: gray-light;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  border: 1px solid rgba(0, 0, 0, 0); }
   .list-group-item:first-child {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
@@ -3017,11 +3023,11 @@ input[type="button"].btn-block {
     z-index: 1;
     text-decoration: none; }
   .list-group-item.disabled, .list-group-item:disabled {
-    color: #6c757d;
+    color: dark;
     background-color: #fff; }
   .list-group-item.active {
     z-index: 2;
-    color: #fff;
+    color: gray-dark;
     background-color: #2F414A;
     border-color: #2F414A; }
 
@@ -3038,12 +3044,12 @@ input[type="button"].btn-block {
 
 .list-group-item-primary {
   color: dark;
-  background-color: #c5cacc; }
+  background-color: #fff; }
   .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
     color: #182226;
     background-color: #b7bec0; }
   .list-group-item-primary.list-group-item-action.active {
-    color: #fff;
+    color: purple;
     background-color: #182226;
     border-color: #182226; }
 
