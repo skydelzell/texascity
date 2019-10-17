@@ -5,7 +5,7 @@
 		<title>Deployment Script</title>
 	</head>
 	<body>
-	<p>Deploy script for Mason spree</p>
+	<p>Deploy script for Sky Delzell</p>
 		<pre>
 		
 <?php
